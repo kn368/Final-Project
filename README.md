@@ -58,62 +58,12 @@ portfolio-website/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/portfolio-website.git
+   [git clone https://github.com/yourusername/portfolio-website.git](https://github.com/kn368/Final-Project)
    ```
 
 2. Navigate to the project directory:
    ```
-   cd portfolio-website
+   cd Final-Project
    ```
 
 3. Open `index.html` in your browser to view the website locally.
-
-### Customization
-
-1. **Personal Information**:
-   - Update text in `index.html` with your own information
-   - Replace profile image in the assets folder
-
-2. **Projects**:
-   - Modify project details in the projects section
-   - Create or update project pages for your own work
-
-3. **Styling**:
-   - Customize colors in the `:root` section of `styles.css`
-   - Adjust fonts, spacing, and other visual elements as needed
-
-4. **Social Links**:
-   - Update the social media links with your own profiles
-
-## Deployment
-
-### GitHub Pages
-
-1. Push your code to GitHub:
-   ```
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
-   ```
-
-2. Go to your repository settings on GitHub
-3. Scroll down to GitHub Pages section
-4. Select the "main" branch as the source
-5. Your site will be published at `https://yourusername.github.io/portfolio-website/`
-
-### Netlify
-
-1. Create an account on [Netlify](https://www.netlify.com/)
-2. Connect your GitHub repository
-3. Configure build settings (not needed for static HTML sites)
-4. Deploy your site
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Font Awesome for the icons
-- Google Fonts for typography
-- Unsplash for placeholder images (if used)
