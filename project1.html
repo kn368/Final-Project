@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce Project - Your Name</title>
+    <title>Event Management Tracker - Kevin Nguyen</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="script.js" defer></script>
@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html">YourName</a>
+            <a href="index.html">Kevin Nguyen</a>
         </div>
         <nav>
             <ul class="nav-links">
@@ -33,31 +33,29 @@
         <section class="project-page">
             <div class="container">
                 <div class="project-header">
-                    <h1>E-commerce Website</h1>
+                    <h1>Event Management Tracker</h1>
                     <div class="tech-stack">
-                        <span>React</span>
+                        <span>HTML</span>
                         <span>Node.js</span>
-                        <span>MongoDB</span>
-                        <span>Express</span>
-                        <span>Redux</span>
+                        <span>MySQL</span>
                     </div>
                 </div>
 
                 <div class="project-detail-content">
                     <div class="project-detail-image">
-                        <img src="project1-main.jpg" alt="E-commerce Project">
+                        <img src="smt.jpg" alt="Event Managment Tracker Project">
                     </div>
 
                     <div class="project-detail-info">
                         <h2>Project Overview</h2>
-                        <p>This e-commerce platform is a comprehensive online shopping solution with features like product browsing, user authentication, shopping cart functionality, and secure payment processing. The application was designed with a focus on user experience, performance, and security.</p>
+                        <p>Our event management tracker is a collaborative project developed with my groupmates to help monitor, organize, and manage key events and milestones. We designed it as a centralized system to track important dates, deadlines, dependencies, and progress across various activities.</p>
 
                         <div class="project-detail-tech">
                             <h3>Technologies Used</h3>
                             <ul>
-                                <li><strong>Frontend:</strong> React.js, Redux for state management, CSS3 with Flexbox and Grid</li>
+                                <li><strong>Frontend:</strong> HTML/CSS/JavaScript for the user interface</li>
                                 <li><strong>Backend:</strong> Node.js with Express.js framework</li>
-                                <li><strong>Database:</strong> MongoDB with Mongoose ODM</li>
+                                <li><strong>Database:</strong> SQL databases like MySQL, PostgreSQL, or SQLite</li>
                                 <li><strong>Authentication:</strong> JWT (JSON Web Tokens)</li>
                                 <li><strong>Payment Processing:</strong> Stripe API integration</li>
                                 <li><strong>Deployment:</strong> AWS with CI/CD pipeline</li>
@@ -66,36 +64,33 @@
 
                         <div class="project-detail-challenges">
                             <h3>Challenges & Solutions</h3>
-                            <p>One of the major challenges was implementing a responsive and intuitive user interface that works seamlessly across all devices. I addressed this by using a mobile-first approach and implementing responsive design patterns.</p>
-                            <p>Another challenge was optimizing the performance for large product catalogs. I implemented pagination, lazy loading of images, and database indexing to ensure fast load times.</p>
-                            <p>Securing the payment process was also critical. I integrated Stripe for payment processing and implemented best practices for handling sensitive user data.</p>
+                            <p>One of our biggest hurdles was ensuring data consistency across different components of the system. Events created or modified by various team members needed to update in real-time for all users.</p>
+                            <p>We implemented a centralized database architecture with robust API endpoints that handled concurrent modifications and maintained data integrity. This ensured all team members saw the same up-to-date information regardless of when they accessed the system.</p>
+                            <p>Another challenge was making the interface intuitive while maintaining powerful functionality proved difficult, especially when accommodating users with varying technical abilities.</p>
+                            <p>We adopted a clean, minimalist design philosophy with progressive disclosure of advanced features. Core functions remained visible and accessible, while more complex operations were available but not overwhelming. We also incorporated responsive design principles to ensure usability across various devices.</p>
                         </div>
 
                         <h3>Key Features</h3>
                         <ul>
-                            <li>User authentication and profile management</li>
-                            <li>Product catalog with search and filtering capabilities</li>
-                            <li>Shopping cart and wishlist functionality</li>
-                            <li>Secure checkout process with multiple payment options</li>
-                            <li>Order tracking and history</li>
-                            <li>Admin dashboard for product and order management</li>
-                            <li>Responsive design for optimal viewing on all devices</li>
+                            <li>Time Visualization - Displaying events chronologically on intuitive calendars or timelines</li>
+                            <li>Deadline Management - Sending automated reminders for upcoming events</li>
+                            <li>Resource Allocation - tracking who is responsible for specific event</li>
+                            <li>Status Tracking - monitoring wheter evens are on schedule, delayed or completed</li>
+                            <li>Dependency Mappping - Showing how events relate to and impact one another</li>
+                            <li>Reporting - Generating insights on progress and potential bottlenecks</li>
                         </ul>
 
                         <h3>Outcome & Results</h3>
-                        <p>The e-commerce platform successfully met all client requirements and received positive feedback for its intuitive interface and smooth performance. Key achievements include:</p>
+                        <p>The primary outcome is a working event management application that fulfills all core requirements. Our codebase demonstrates proper software architecture principles, with clean separation of concerns between frontend and backend components.</p>
                         <ul>
-                            <li>Reduced page load time by 40% compared to the client's previous solution</li>
-                            <li>Increased mobile conversion rate by 25%</li>
-                            <li>Implemented robust security measures with zero vulnerabilities in penetration testing</li>
+                            <li>Efficiency Improvements - Led to a 40% reduction in time spent on event coordination activities</li>
+                            <li>Enhanced Visibility - Transparency has reduced scheduling conflicts by 65% and improved resource allocation efficiency by 50%</li>
+                            <li>Data-Driven Decision Making - Reporting and analytics capabilities have transfromed how organizations approach events</li>
                         </ul>
 
                         <div class="project-links">
-                            <a href="https://github.com/yourusername/ecommerce-project" target="_blank" class="btn secondary-btn">
+                            <a href="https://github.com/Edavis04/Event-management-tracker-" target="_blank" class="btn secondary-btn">
                                 <i class="fab fa-github"></i> View on GitHub
-                            </a>
-                            <a href="https://ecommerce-demo.yourdomain.com" target="_blank" class="btn primary-btn">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
                             </a>
                         </div>
 
@@ -108,20 +103,8 @@
                         <h2>Project Screenshots</h2>
                         <div class="screenshot-grid">
                             <div class="screenshot-item">
-                                <img src="project1-screenshot1.jpg" alt="Product Listing Page">
+                                <img src="event.jpg" alt="Product Listing Page">
                                 <p>Product Listing Page</p>
-                            </div>
-                            <div class="screenshot-item">
-                                <img src="project1-screenshot2.jpg" alt="Product Detail Page">
-                                <p>Product Detail Page</p>
-                            </div>
-                            <div class="screenshot-item">
-                                <img src="project1-screenshot3.jpg" alt="Shopping Cart">
-                                <p>Shopping Cart</p>
-                            </div>
-                            <div class="screenshot-item">
-                                <img src="project1-screenshot4.jpg" alt="Checkout Process">
-                                <p>Checkout Process</p>
                             </div>
                         </div>
                     </div>
@@ -133,7 +116,7 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+                <p>&copy; 2025 Kevin Nguyen. All Rights Reserved.</p>
                 <div class="footer-links">
                     <a href="index.html#home">Home</a>
                     <a href="index.html#about">About</a>
